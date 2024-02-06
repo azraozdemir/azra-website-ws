@@ -28,6 +28,7 @@ nav {
   top: 0;
   width: 100%;
   background: linear-gradient(#404545, #0c0d14);
+  z-index: 3;
 }
 .navbar {
   width: auto;
@@ -72,12 +73,8 @@ nav>div a:hover::before {
   margin: 3.5rem;
 }
 /*Main-Text*/
-.text-container {
-  display: flex;
-  gap: 20px;
-}
-.text {
-  flex: 1;
+.card-body {
+    padding: 1rem;
 }
 /*Schrift*/
 h1 {
@@ -319,16 +316,15 @@ hr {
 .half_round_img{
   border-radius: 1.9vw 1.9vw 0px 0px;
 }
-  .resp_img{
+.resp_img{
   width: 5.5vw;
-  }
-  .half_round_img{
+}
+.half_round_img{
   border-radius: 1.9vw 1.9vw 0px 0px;
-  }
-  .resp_img{
+}
+.resp_img{
   width: 5.5vw;
-  }
-
+}
 /*Kontakt*/
 .first-slide {
   min-height: 100vh;
